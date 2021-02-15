@@ -6,8 +6,23 @@
 --------------------Configuration: TyPad - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x409 /fo"Release/TyPad.res" /d "NDEBUG" /d "_AFXDLL" "C:\source\c++\TyPad\TyPad.rc"" 
-Creating temporary file "C:\Users\tygil\AppData\Local\Temp\RSP264A.tmp" with contents
+Creating temporary file "C:\Users\tygil\AppData\Local\Temp\RSP16A8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TyPad.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\source\c++\TyPad\ChildFrm.cpp"
+"C:\source\c++\TyPad\MainFrm.cpp"
+"C:\source\c++\TyPad\TyPad.cpp"
+"C:\source\c++\TyPad\TyPadDoc.cpp"
+"C:\source\c++\TyPad\TyPadView.cpp"
+]
+Creating command line "cl.exe @C:\Users\tygil\AppData\Local\Temp\RSP16A8.tmp" 
+Creating temporary file "C:\Users\tygil\AppData\Local\Temp\RSP16A9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TyPad.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\source\c++\TyPad\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\tygil\AppData\Local\Temp\RSP16A9.tmp" 
+Creating temporary file "C:\Users\tygil\AppData\Local\Temp\RSP16BA.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/TyPad.pdb" /machine:I386 /out:"Release/TyPad.exe" 
 ".\Release\ChildFrm.obj"
@@ -18,15 +33,26 @@ Creating temporary file "C:\Users\tygil\AppData\Local\Temp\RSP264A.tmp" with con
 ".\Release\TyPadView.obj"
 ".\Release\TyPad.res"
 ]
-Creating command line "link.exe @C:\Users\tygil\AppData\Local\Temp\RSP264A.tmp"
+Creating command line "link.exe @C:\Users\tygil\AppData\Local\Temp\RSP16BA.tmp"
 <h3>Output Window</h3>
-Compiling resources...
-Linking...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+MainFrm.cpp
+TyPad.cpp
+C:\source\c++\TyPad\TyPadDoc.h(13) : error C2059: syntax error : ','
+TyPadDoc.cpp
+C:\source\c++\TyPad\TyPadDoc.h(13) : error C2059: syntax error : ','
+TyPadView.cpp
+fatal error C1083: Cannot open source file: 'C:\source\c++\TyPad\TyPadView.cpp': No such file or directory
+Generating Code...
+Error executing cl.exe.
 
 
 
 <h3>Results</h3>
-TyPad.exe - 0 error(s), 0 warning(s)
+TyPad.exe - 3 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
