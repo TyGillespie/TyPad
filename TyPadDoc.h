@@ -10,7 +10,7 @@
 #endif // _MSC_VER > 1000
 
 
-class CTyPadDoc : public CDocument, , public CUndo
+class CTyPadDoc : public CDocument
 {
 protected: // create from serialization only
 	CTyPadDoc();
