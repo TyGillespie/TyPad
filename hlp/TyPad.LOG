@@ -2,13 +2,15 @@ Microsoft (R) Help Compiler
 HCRTF 4.03.0002
 Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
 typad.hpj
-    HC3025: Warning: topic #1 of C:\source\C++\TyPad\hlp\.\afxcore.rtf : 
+    HC1002: Note: 
+	Using existing phrase table: TyPad.ph.
+    HC3025: Warning: topic #1 of C:\source\c++\TyPad\hlp\.\afxcore.rtf : 
 	Jump to undefined Topic ID: "menu_record".
-    HC3025: Warning: topic #3 of C:\source\C++\TyPad\hlp\.\afxcore.rtf : 
+    HC3025: Warning: topic #3 of C:\source\c++\TyPad\hlp\.\afxcore.rtf : 
 	Jump to undefined Topic ID: "HID_OLE_EDIT_LINKS".
-    HC3025: Warning: topic #3 of C:\source\C++\TyPad\hlp\.\afxcore.rtf : 
+    HC3025: Warning: topic #3 of C:\source\c++\TyPad\hlp\.\afxcore.rtf : 
 	Jump to undefined Topic ID: "HID_EDIT_PASTE_LINK".
-    HC3025: Warning: topic #3 of C:\source\C++\TyPad\hlp\.\afxcore.rtf : 
+    HC3025: Warning: topic #3 of C:\source\c++\TyPad\hlp\.\afxcore.rtf : 
 	Jump to undefined Topic ID: "HID_OLE_INSERT_NEW".
     HC1010: Note: 
 	The following mapped Topic IDs were not used in any topic:
@@ -149,8 +151,8 @@ typad.hpj
 21	Bitmaps
 
 
-Created C:\source\C++\TyPad\hlp\TyPad.HLP, 38,763 bytes
+Created C:\source\c++\TyPad\hlp\TyPad.HLP, 38,928 bytes
 Bitmaps: 5,348 bytes
 Phrase+Zeck compression decreased help file by 13,866 bytes.
-Compile time: 0 minutes, 1 second
-1 note, 4 warnings
+Compile time: 0 minutes, 0 seconds
+2 notes, 4 warnings
